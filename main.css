@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Growland";
+    src: url("font/GrowlandBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Growland_Blod";
+    src: url("font/GrowlandBlack.woff2") format("woff2");
+}
+
+@media only screen and (max-width: 576px) {
+    .nav-item{
+        margin:5px;
+        
+    }
+}
+
+
+body {
+    font-family: 'Growland' !important;
+}
+
+.navbar-nav{
+    flex-direction: row !important;
+}
+
+.header{
+    min-height: 100vh;
+    background-size: cover;
+    background-color: rgb(71, 71, 71);
+    background-image: url("img/51363.jpg");
+    background-position: center;
+    height: 100%;
+}
+.headerTitle{
+    font-family: 'Growland';
+    font-size: 50px;
+    color: white;
+    mix-blend-mode:color-dodge;
+}
+.headerText{
+
+    color: white;
+    mix-blend-mode: overlay;
+}
+.social {
+    margin: 24px 0;
+    padding: 0;
+    font-size: 25px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+.social li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+}
+.social li a { color: white; }
+.social li a:hover { mix-blend-mode: overlay; }
+
+.arrow{
+    font-size: 25px;
+    color: white; 
+    
+}
+.arrow:hover { mix-blend-mode: overlay; }
+
+
+.about{
+
+    background-color:#314152;
+    color:white;
+    
+}
+
+.about  .container{
+    padding: 50px;
+    min-height: 45vh;
+}
+
+.about  .container .row{
+    min-height: 45vh;
+}
+
+ 
+
+.resume{
+
+    background-color:#99b1ca;
+    color:rgb(78, 78, 78);
+    
+}
+
+.resume  .container{
+    padding: 50px;
+    min-height: 45vh;
+}
+
+.resume  .container .row{
+    min-height: 45vh;
+}
+
+
+.resumeTitle{
+
+    font-size: 35px;
+}
+.resumeExtra{
+    font-style: italic;
+    color: rgb(112, 112, 112);
+}
+
+.skills{
+    background-color:#314152;
+    color: white;
+}
+
+.skills  .container{
+    padding: 50px;
+    min-height: 45vh;
+}
+
+.skills  .container .row{
+    min-height: 45vh;
+}
+
+.languages{
+    background-color:#99b1ca;
+    color:rgb(78, 78, 78);
+}
+
+.languages  .container{
+    padding: 50px;
+    min-height: 45vh;
+}
+
+.languages  .container .row{
+    min-height: 45vh;
+}
+.skills .progress-bar{
+    background-color:#99b1ca !important;
+}
+
+.languages .progress-bar{
+    background-color:#314152 !important;
+}
